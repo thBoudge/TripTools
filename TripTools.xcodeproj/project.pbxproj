@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1429C5A2221470C4008726BA /* DeviseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429C5A1221470C4008726BA /* DeviseService.swift */; };
+		1429C5A622147F61008726BA /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429C5A522147F61008726BA /* WeatherService.swift */; };
+		1444648422107CB4001A2516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444648322107CB4001A2516 /* AppDelegate.swift */; };
+		1444648922107CB4001A2516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1444648722107CB4001A2516 /* Main.storyboard */; };
+		1444648B22107CB5001A2516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1444648A22107CB5001A2516 /* Assets.xcassets */; };
+		1444648E22107CB5001A2516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1444648C22107CB5001A2516 /* LaunchScreen.storyboard */; };
+		144464992210818E001A2516 /* DeviseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144464982210818E001A2516 /* DeviseViewController.swift */; };
+		1444649B221081AC001A2516 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444649A221081AC001A2516 /* WeatherViewController.swift */; };
+		1444649D221081BD001A2516 /* TraductorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444649C221081BD001A2516 /* TraductorViewController.swift */; };
+		14AEAD6A22453ECE00501BD0 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14AEAD6922453ECE00501BD0 /* ApiKeys.plist */; };
+		14C186862246DD0200B48734 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C186852246DD0200B48734 /* TranslationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1429C5A1221470C4008726BA /* DeviseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviseService.swift; sourceTree = "<group>"; };
+		1429C5A522147F61008726BA /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		1444648022107CB4001A2516 /* TripTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1444648322107CB4001A2516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1444648822107CB4001A2516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1444648A22107CB5001A2516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1444648D22107CB5001A2516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1444648F22107CB5001A2516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144464982210818E001A2516 /* DeviseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviseViewController.swift; sourceTree = "<group>"; };
+		1444649A221081AC001A2516 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		1444649C221081BD001A2516 /* TraductorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraductorViewController.swift; sourceTree = "<group>"; };
+		14AEAD6922453ECE00501BD0 /* ApiKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		14C186852246DD0200B48734 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1444647D22107CB4001A2516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1444647722107CB4001A2516 = {
+			isa = PBXGroup;
+			children = (
+				1444648222107CB4001A2516 /* TripTools */,
+				1444648122107CB4001A2516 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1444648122107CB4001A2516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1444648022107CB4001A2516 /* TripTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1444648222107CB4001A2516 /* TripTools */ = {
+			isa = PBXGroup;
+			children = (
+				1444649722107D31001A2516 /* Model */,
+				1444649622107D0B001A2516 /* Controller */,
+				1444649522107CCC001A2516 /* View */,
+				1444648322107CB4001A2516 /* AppDelegate.swift */,
+				1444648F22107CB5001A2516 /* Info.plist */,
+			);
+			path = TripTools;
+			sourceTree = "<group>";
+		};
+		1444649522107CCC001A2516 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1444648A22107CB5001A2516 /* Assets.xcassets */,
+				1444648722107CB4001A2516 /* Main.storyboard */,
+				1444648C22107CB5001A2516 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1444649622107D0B001A2516 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				144464982210818E001A2516 /* DeviseViewController.swift */,
+				1444649A221081AC001A2516 /* WeatherViewController.swift */,
+				1444649C221081BD001A2516 /* TraductorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1444649722107D31001A2516 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1429C5A1221470C4008726BA /* DeviseService.swift */,
+				1429C5A522147F61008726BA /* WeatherService.swift */,
+				14C186852246DD0200B48734 /* TranslationService.swift */,
+				14AEAD6922453ECE00501BD0 /* ApiKeys.plist */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1444647F22107CB4001A2516 /* TripTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1444649222107CB5001A2516 /* Build configuration list for PBXNativeTarget "TripTools" */;
+			buildPhases = (
+				1444647C22107CB4001A2516 /* Sources */,
+				1444647D22107CB4001A2516 /* Frameworks */,
+				1444647E22107CB4001A2516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripTools;
+			productName = TripTools;
+			productReference = 1444648022107CB4001A2516 /* TripTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1444647822107CB4001A2516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Bouges";
+				TargetAttributes = {
+					1444647F22107CB4001A2516 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 1444647B22107CB4001A2516 /* Build configuration list for PBXProject "TripTools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1444647722107CB4001A2516;
+			productRefGroup = 1444648122107CB4001A2516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1444647F22107CB4001A2516 /* TripTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1444647E22107CB4001A2516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1444648E22107CB5001A2516 /* LaunchScreen.storyboard in Resources */,
+				14AEAD6A22453ECE00501BD0 /* ApiKeys.plist in Resources */,
+				1444648B22107CB5001A2516 /* Assets.xcassets in Resources */,
+				1444648922107CB4001A2516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1444647C22107CB4001A2516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144464992210818E001A2516 /* DeviseViewController.swift in Sources */,
+				1444649B221081AC001A2516 /* WeatherViewController.swift in Sources */,
+				1429C5A2221470C4008726BA /* DeviseService.swift in Sources */,
+				1444648422107CB4001A2516 /* AppDelegate.swift in Sources */,
+				14C186862246DD0200B48734 /* TranslationService.swift in Sources */,
+				1444649D221081BD001A2516 /* TraductorViewController.swift in Sources */,
+				1429C5A622147F61008726BA /* WeatherService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1444648722107CB4001A2516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1444648822107CB4001A2516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1444648C22107CB5001A2516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1444648D22107CB5001A2516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1444649022107CB5001A2516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1444649122107CB5001A2516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1444649322107CB5001A2516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XB8K9T4CZ;
+				INFOPLIST_FILE = TripTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.thomasbouges.TripTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1444649422107CB5001A2516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XB8K9T4CZ;
+				INFOPLIST_FILE = TripTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.thomasbouges.TripTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1444647B22107CB4001A2516 /* Build configuration list for PBXProject "TripTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1444649022107CB5001A2516 /* Debug */,
+				1444649122107CB5001A2516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1444649222107CB5001A2516 /* Build configuration list for PBXNativeTarget "TripTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1444649322107CB5001A2516 /* Debug */,
+				1444649422107CB5001A2516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1444647822107CB4001A2516 /* Project object */;
+}
