@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1419A4F62263831400704CF0 /* Devise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A4F52263831400704CF0 /* Devise.swift */; };
+		1419A4F82263832000704CF0 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A4F72263832000704CF0 /* ApiKeys.swift */; };
+		1419A4FA2263835900704CF0 /* URLRequestConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A4F92263835900704CF0 /* URLRequestConstructor.swift */; };
+		1419A52622638A0F00704CF0 /* URLSessionFake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A52522638A0F00704CF0 /* URLSessionFake.swift */; };
+		1419A52822638A1800704CF0 /* Devise.json in Resources */ = {isa = PBXBuildFile; fileRef = 1419A52722638A1800704CF0 /* Devise.json */; };
+		1419A52A22638A2100704CF0 /* FakeFixerResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A52922638A2100704CF0 /* FakeFixerResponseData.swift */; };
+		1419A52C22638A2B00704CF0 /* DeviseServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A52B22638A2B00704CF0 /* DeviseServiceTests.swift */; };
 		1429C5A2221470C4008726BA /* DeviseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429C5A1221470C4008726BA /* DeviseService.swift */; };
 		1429C5A622147F61008726BA /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1429C5A522147F61008726BA /* WeatherService.swift */; };
 		1444648422107CB4001A2516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444648322107CB4001A2516 /* AppDelegate.swift */; };
@@ -20,7 +27,26 @@
 		14C186862246DD0200B48734 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C186852246DD0200B48734 /* TranslationService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1419A5202263881E00704CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1444647822107CB4001A2516 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1444647F22107CB4001A2516;
+			remoteInfo = TripTools;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1419A4F52263831400704CF0 /* Devise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devise.swift; sourceTree = "<group>"; };
+		1419A4F72263832000704CF0 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		1419A4F92263835900704CF0 /* URLRequestConstructor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestConstructor.swift; sourceTree = "<group>"; };
+		1419A51B2263881E00704CF0 /* TripToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1419A51F2263881E00704CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1419A52522638A0F00704CF0 /* URLSessionFake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionFake.swift; sourceTree = "<group>"; };
+		1419A52722638A1800704CF0 /* Devise.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Devise.json; sourceTree = "<group>"; };
+		1419A52922638A2100704CF0 /* FakeFixerResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeFixerResponseData.swift; sourceTree = "<group>"; };
+		1419A52B22638A2B00704CF0 /* DeviseServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviseServiceTests.swift; sourceTree = "<group>"; };
 		1429C5A1221470C4008726BA /* DeviseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviseService.swift; sourceTree = "<group>"; };
 		1429C5A522147F61008726BA /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
 		1444648022107CB4001A2516 /* TripTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +63,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1419A5182263881E00704CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1444647D22107CB4001A2516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -47,10 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1419A51C2263881E00704CF0 /* TripToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1419A52B22638A2B00704CF0 /* DeviseServiceTests.swift */,
+				1419A52922638A2100704CF0 /* FakeFixerResponseData.swift */,
+				1419A52722638A1800704CF0 /* Devise.json */,
+				1419A52522638A0F00704CF0 /* URLSessionFake.swift */,
+				1419A51F2263881E00704CF0 /* Info.plist */,
+			);
+			path = TripToolsTests;
+			sourceTree = "<group>";
+		};
 		1444647722107CB4001A2516 = {
 			isa = PBXGroup;
 			children = (
 				1444648222107CB4001A2516 /* TripTools */,
+				1419A51C2263881E00704CF0 /* TripToolsTests */,
 				1444648122107CB4001A2516 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				1444648022107CB4001A2516 /* TripTools.app */,
+				1419A51B2263881E00704CF0 /* TripToolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,9 +146,12 @@
 			isa = PBXGroup;
 			children = (
 				1429C5A1221470C4008726BA /* DeviseService.swift */,
+				1419A4F52263831400704CF0 /* Devise.swift */,
 				1429C5A522147F61008726BA /* WeatherService.swift */,
 				14C186852246DD0200B48734 /* TranslationService.swift */,
+				1419A4F92263835900704CF0 /* URLRequestConstructor.swift */,
 				14AEAD6922453ECE00501BD0 /* ApiKeys.plist */,
+				1419A4F72263832000704CF0 /* ApiKeys.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,6 +159,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1419A51A2263881E00704CF0 /* TripToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1419A5222263881E00704CF0 /* Build configuration list for PBXNativeTarget "TripToolsTests" */;
+			buildPhases = (
+				1419A5172263881E00704CF0 /* Sources */,
+				1419A5182263881E00704CF0 /* Frameworks */,
+				1419A5192263881E00704CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1419A5212263881E00704CF0 /* PBXTargetDependency */,
+			);
+			name = TripToolsTests;
+			productName = TripToolsTests;
+			productReference = 1419A51B2263881E00704CF0 /* TripToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1444647F22107CB4001A2516 /* TripTools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1444649222107CB5001A2516 /* Build configuration list for PBXNativeTarget "TripTools" */;
@@ -132,10 +200,15 @@
 		1444647822107CB4001A2516 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Thomas Bouges";
 				TargetAttributes = {
+					1419A51A2263881E00704CF0 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						TestTargetID = 1444647F22107CB4001A2516;
+					};
 					1444647F22107CB4001A2516 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
@@ -156,11 +229,20 @@
 			projectRoot = "";
 			targets = (
 				1444647F22107CB4001A2516 /* TripTools */,
+				1419A51A2263881E00704CF0 /* TripToolsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1419A5192263881E00704CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1419A52822638A1800704CF0 /* Devise.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1444647E22107CB4001A2516 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,21 +257,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1419A5172263881E00704CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1419A52A22638A2100704CF0 /* FakeFixerResponseData.swift in Sources */,
+				1419A52622638A0F00704CF0 /* URLSessionFake.swift in Sources */,
+				1419A52C22638A2B00704CF0 /* DeviseServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1444647C22107CB4001A2516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				144464992210818E001A2516 /* DeviseViewController.swift in Sources */,
 				1444649B221081AC001A2516 /* WeatherViewController.swift in Sources */,
+				1419A4F82263832000704CF0 /* ApiKeys.swift in Sources */,
 				1429C5A2221470C4008726BA /* DeviseService.swift in Sources */,
+				1419A4FA2263835900704CF0 /* URLRequestConstructor.swift in Sources */,
 				1444648422107CB4001A2516 /* AppDelegate.swift in Sources */,
 				14C186862246DD0200B48734 /* TranslationService.swift in Sources */,
 				1444649D221081BD001A2516 /* TraductorViewController.swift in Sources */,
 				1429C5A622147F61008726BA /* WeatherService.swift in Sources */,
+				1419A4F62263831400704CF0 /* Devise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1419A5212263881E00704CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1444647F22107CB4001A2516 /* TripTools */;
+			targetProxy = 1419A5202263881E00704CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1444648722107CB4001A2516 /* Main.storyboard */ = {
@@ -211,6 +314,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1419A5232263881E00704CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XB8K9T4CZ;
+				INFOPLIST_FILE = TripToolsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.thomasbouges.TripToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripTools.app/TripTools";
+			};
+			name = Debug;
+		};
+		1419A5242263881E00704CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XB8K9T4CZ;
+				INFOPLIST_FILE = TripToolsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.thomasbouges.TripToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripTools.app/TripTools";
+			};
+			name = Release;
+		};
 		1444649022107CB5001A2516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -366,6 +514,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1419A5222263881E00704CF0 /* Build configuration list for PBXNativeTarget "TripToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1419A5232263881E00704CF0 /* Debug */,
+				1419A5242263881E00704CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1444647B22107CB4001A2516 /* Build configuration list for PBXProject "TripTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
