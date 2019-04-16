@@ -27,6 +27,10 @@
 		144464992210818E001A2516 /* DeviseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144464982210818E001A2516 /* DeviseViewController.swift */; };
 		1444649B221081AC001A2516 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444649A221081AC001A2516 /* WeatherViewController.swift */; };
 		1444649D221081BD001A2516 /* TraductorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1444649C221081BD001A2516 /* TraductorViewController.swift */; };
+		1461F14022668179007A6425 /* TranslationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1461F13F22668178007A6425 /* TranslationDataModel.swift */; };
+		1461F142226682B7007A6425 /* TranslationResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1461F141226682B7007A6425 /* TranslationResponse.json */; };
+		1461F144226682C8007A6425 /* FakeGoogleTranslateResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1461F143226682C8007A6425 /* FakeGoogleTranslateResponseData.swift */; };
+		1461F146226682DD007A6425 /* TranslationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1461F145226682DD007A6425 /* TranslationServiceTests.swift */; };
 		14AEAD6A22453ECE00501BD0 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14AEAD6922453ECE00501BD0 /* ApiKeys.plist */; };
 		14C186862246DD0200B48734 /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C186852246DD0200B48734 /* TranslationService.swift */; };
 /* End PBXBuildFile section */
@@ -66,6 +70,10 @@
 		144464982210818E001A2516 /* DeviseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviseViewController.swift; sourceTree = "<group>"; };
 		1444649A221081AC001A2516 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		1444649C221081BD001A2516 /* TraductorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraductorViewController.swift; sourceTree = "<group>"; };
+		1461F13F22668178007A6425 /* TranslationDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationDataModel.swift; sourceTree = "<group>"; };
+		1461F141226682B7007A6425 /* TranslationResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TranslationResponse.json; sourceTree = "<group>"; };
+		1461F143226682C8007A6425 /* FakeGoogleTranslateResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeGoogleTranslateResponseData.swift; sourceTree = "<group>"; };
+		1461F145226682DD007A6425 /* TranslationServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationServiceTests.swift; sourceTree = "<group>"; };
 		14AEAD6922453ECE00501BD0 /* ApiKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
 		14C186852246DD0200B48734 /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,10 +101,13 @@
 			children = (
 				1419A52B22638A2B00704CF0 /* DeviseServiceTests.swift */,
 				143DC3D1226523F700F711E8 /* WeatherServiceTests.swift */,
+				1461F145226682DD007A6425 /* TranslationServiceTests.swift */,
 				1419A52922638A2100704CF0 /* FakeFixerResponseData.swift */,
 				143DC3CF226523D800F711E8 /* FakeWeatherResponseData.swift */,
+				1461F143226682C8007A6425 /* FakeGoogleTranslateResponseData.swift */,
 				1419A52722638A1800704CF0 /* Devise.json */,
 				143DC3CD226523C700F711E8 /* WeatherData.json */,
+				1461F141226682B7007A6425 /* TranslationResponse.json */,
 				1419A52522638A0F00704CF0 /* URLSessionFake.swift */,
 				1419A51F2263881E00704CF0 /* Info.plist */,
 			);
@@ -161,6 +172,7 @@
 				1429C5A522147F61008726BA /* WeatherService.swift */,
 				143DC3CB2265233E00F711E8 /* WeatherDataModel.swift */,
 				14C186852246DD0200B48734 /* TranslationService.swift */,
+				1461F13F22668178007A6425 /* TranslationDataModel.swift */,
 				1419A4F92263835900704CF0 /* URLRequestConstructor.swift */,
 				14AEAD6922453ECE00501BD0 /* ApiKeys.plist */,
 				1419A4F72263832000704CF0 /* ApiKeys.swift */,
@@ -253,6 +265,7 @@
 			files = (
 				143DC3CE226523C700F711E8 /* WeatherData.json in Resources */,
 				1419A52822638A1800704CF0 /* Devise.json in Resources */,
+				1461F142226682B7007A6425 /* TranslationResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				143DC3D0226523D800F711E8 /* FakeWeatherResponseData.swift in Sources */,
+				1461F144226682C8007A6425 /* FakeGoogleTranslateResponseData.swift in Sources */,
 				143DC3D2226523F700F711E8 /* WeatherServiceTests.swift in Sources */,
+				1461F146226682DD007A6425 /* TranslationServiceTests.swift in Sources */,
 				1419A52A22638A2100704CF0 /* FakeFixerResponseData.swift in Sources */,
 				1419A52622638A0F00704CF0 /* URLSessionFake.swift in Sources */,
 				1419A52C22638A2B00704CF0 /* DeviseServiceTests.swift in Sources */,
@@ -297,6 +312,7 @@
 				1444649D221081BD001A2516 /* TraductorViewController.swift in Sources */,
 				1429C5A622147F61008726BA /* WeatherService.swift in Sources */,
 				1419A4F62263831400704CF0 /* Devise.swift in Sources */,
+				1461F14022668179007A6425 /* TranslationDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
