@@ -7,16 +7,19 @@
 
 <img src="AppsTripTools1Gif.gif" alt="Instangrid Gif" width="200" height="400">  <img src="AppsTripTools2Gif.gif" alt="Instangrid Gif" width="200" height="400">  <img src="AppsTripTools3Gif.gif" alt="Instangrid Gif" width="200" height="400">
 
-TripTools is a travel app's that will give you some help on your trip
-- One page to get a rate of any money from Euros
-- One other to have text translation between any languages
-- And of course your personal weather app that will give you weather from New York and from where you are. And if it is not enought you will be able to change city name and get weather data from where you want.
+TripTools is a travel application that will give you some help on your trip.
+
+- One page to convert Euros to any other currency
+- One page for text translation 
+- One page with the weather in New York and in the city where you are. You will be able to get weather data for any location by changing the city name.
+
 
 
 
 Focus have been done on the following aspects :
 - API call (Google Translate , fixer.io, Openweathermap)
 - PickerView
+- CoreLocation
 - MVC 
 - API Unit Tests
 
